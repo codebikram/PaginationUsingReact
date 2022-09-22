@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1024px;
+  margin: 50px auto;
+}
+nav {
+  width: min-content;
+  margin-left: auto;
+}
+.page-link {
+  cursor: pointer;
+}
+.active {
+  background-color: yellow;
+}
+button:disabled {
+  cursor: not-allowed;
+}
